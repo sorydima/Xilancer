@@ -1,0 +1,14 @@
+﻿stages:
+  - test
+
+flutter_test:
+  stage: test
+  image: cirrusci/flutter:stable
+  script:
+    - flutter pub get
+    - flutter analyze
+    - flutter test
+  cache:
+    key: flutter
+    paths:
+      - .pub-cache/

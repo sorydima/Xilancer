@@ -1,0 +1,5 @@
+﻿blank_issues_enabled: true
+contact_links:
+  - name: Security issue
+    url: https://example.com/security
+    about: Please report security issues privately.

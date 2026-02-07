@@ -1,0 +1,18 @@
+﻿"area: docs":
+  - "docs/**"
+  - "**/*.md"
+
+"area: android":
+  - "android/**"
+
+"area: ios":
+  - "ios/**"
+
+"area: web":
+  - "web/**"
+
+"area: app":
+  - "lib/**"
+
+"area: assets":
+  - "assets/**"

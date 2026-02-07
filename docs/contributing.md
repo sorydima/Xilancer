@@ -1,0 +1,3 @@
+﻿# Contributing
+
+See `CONTRIBUTING.md`.
