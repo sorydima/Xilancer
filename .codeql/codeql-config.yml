@@ -1,0 +1,7 @@
+﻿name: Xilancer CodeQL
+paths-ignore:
+  - "**/build/**"
+  - "**/.dart_tool/**"
+  - "**/Pods/**"
+  - "**/ios/build/**"
+  - "**/android/build/**"

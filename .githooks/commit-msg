@@ -1,0 +1,15 @@
+﻿#!/usr/bin/env bash
+set -euo pipefail
+
+commit_msg_file="$1"
+first_line=$(head -n 1 "$commit_msg_file")
+
+pattern='^(feat|fix|chore|docs|refactor|test|ci|build)(\([a-z0-9_-]+\))?: .+$'
+
+if [[ ! "$first_line" =~ $pattern ]]; then
+  echo "Commit message does not match Conventional Commits."
+  echo "Expected: type(scope?): subject"
+  echo "Examples: feat(auth): add login" 
+  echo "          fix: handle null token" 
+  exit 1
+fi

@@ -1,0 +1,6 @@
+﻿version = 1
+
+[[annotations]]
+path = ["**/*"]
+SPDX-FileCopyrightText = "2026 Xilancer Team"
+SPDX-License-Identifier = "MIT"

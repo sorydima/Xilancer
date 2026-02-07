@@ -13,3 +13,11 @@ reasonable timeline for resolution and disclosure.
 ## Supported Versions
 
 Only the latest `main` branch is actively supported.
+
+## Hardening Guidance
+
+- Keep dependencies up to date.
+- Avoid committing secrets; use environment variables or secure vaults.
+- Limit access to CI secrets and protect the default branch.
+- Review third-party packages before adoption.
+- Rotate credentials if exposure is suspected.

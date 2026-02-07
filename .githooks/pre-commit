@@ -1,0 +1,16 @@
+﻿#!/usr/bin/env bash
+set -euo pipefail
+
+if command -v dart >/dev/null 2>&1; then
+  echo "Running dart format..."
+  dart format --set-exit-if-changed .
+else
+  echo "dart not found; skipping format"
+fi
+
+if command -v dart >/dev/null 2>&1; then
+  echo "Running dart analyze..."
+  dart analyze
+else
+  echo "dart not found; skipping analyze"
+fi

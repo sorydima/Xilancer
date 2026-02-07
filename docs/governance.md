@@ -1,0 +1,3 @@
+﻿# Governance
+
+See `GOVERNANCE.md`.

@@ -1,0 +1,19 @@
+﻿types:
+  - feat
+  - fix
+  - chore
+  - docs
+  - refactor
+  - test
+  - ci
+  - build
+
+scopes:
+  - app
+  - docs
+  - android
+  - ios
+  - web
+  - assets
+
+requireScope: false

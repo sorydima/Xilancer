@@ -1,0 +1,16 @@
+﻿site_name: Xilancer Docs
+site_description: Xilancer project documentation
+site_url: https://example.com
+
+nav:
+  - Home: docs/index.md
+  - Getting Started: docs/getting-started.md
+  - Architecture: docs/architecture.md
+  - Contributing: docs/contributing.md
+  - FAQ: docs/faq.md
+  - Release: docs/release-process.md
+  - Security: docs/security.md
+  - Support: docs/support.md
+
+theme:
+  name: mkdocs

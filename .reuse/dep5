@@ -1,0 +1,7 @@
+﻿Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Xilancer
+Source: https://example.com
+
+Files: *
+Copyright: 2026 Xilancer Team
+License: MIT

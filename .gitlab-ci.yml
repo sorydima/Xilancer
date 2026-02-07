@@ -1,5 +1,9 @@
 ﻿stages:
   - test
+  - release
+
+include:
+  - local: .gitlab-ci-release.yml
 
 flutter_test:
   stage: test
